@@ -1,0 +1,55 @@
+buildscript {
+    ext {
+        springBootVersion = "2.0.6.RELEASE"
+    }
+
+    repositories {
+        mavenCentral()
+    }
+
+    dependencies {
+        classpath "org.springframework.boot:spring-boot-gradle-plugin:$springBootVersion"
+    }
+}
+
+plugins {
+    id 'java'
+}
+apply plugin: 'org.springframework.boot'
+
+group 'MyProject'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
+dependencies {
+    compile("org.springframework.boot:spring-boot-starter-web:$springBootVersion")
+}
+dependencies {
+    testCompile("org.springframework.boot:spring-boot-starter-test:$springBootVersion")
+}
+
+
+bootRun{
+
+    systemProperties['WELCOME_MESSAGE']='HEllo'
+
+    }
+
+test{
+    systemProperties['TEST_MESSAGE']='HElloTest'
+    //System.setProperty('Test_Message','TestHello')
+
+}
+
+
+
+
+
