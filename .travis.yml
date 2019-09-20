@@ -29,7 +29,7 @@ jobs:
       language: bash
       script:
         - echo "Downloading $RELEASE_TAG"
-        - wget -P build/libs https://github.com/SaranyaKuppusamy1987/MyRepo/tree/Appbranch/build/libs/First-1.0-SNAPSHOT.jar
+        - wget -P build/libs https://github.com/SaranyaKuppusamy1987/NewDemo/tree/master/build/libs/untitled-1.0-SNAPSHOT.jar
       before_deploy:
         - echo "Deploying $RELEASE_TAG to Cloud Foundry"
       deploy:
