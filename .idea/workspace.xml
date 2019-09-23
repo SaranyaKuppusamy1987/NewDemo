@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1569f88c-039e-4453-af94-8a751ef7754a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/pivotal/pal/tracker/WelcomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/pivotal/pal/tracker/WelcomeController.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +55,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.New">
+  <component name="RunManager" selected="Gradle.New [Run]">
     <configuration name="PalTrackerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="io.pivotal.pal.tracker.PalTrackerApplication" />
       <module name="untitled.main" />
@@ -136,8 +132,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.New" />
         <item itemvalue="Gradle.New [Run]" />
+        <item itemvalue="Gradle.New" />
         <item itemvalue="Application.PalTrackerApplication" />
       </list>
     </recent_temporary>
@@ -153,7 +149,7 @@
       <option name="presentableId" value="Default" />
       <updated>1568971355439</updated>
       <workItem from="1568971359111" duration="4190000" />
-      <workItem from="1569218562258" duration="1281000" />
+      <workItem from="1569218562258" duration="1918000" />
     </task>
     <servers />
   </component>

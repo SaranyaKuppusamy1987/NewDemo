@@ -21,7 +21,7 @@ public class WelcomeController {
         this.message = message;
     }
 
-    @GetMapping("/hello")
+    @GetMapping("/")
 
     public String sayHello() {
         return message;
